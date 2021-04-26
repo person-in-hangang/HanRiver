@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:background="@drawable/border2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최근 6개월 투신현황"
+            android:fontFamily="@font/binggrae2_bold"
+            android:textSize="25sp"
+
+
+
+            />
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <TextView
+
+
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+
+            android:layout_marginLeft="13dp"
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="투신 위치"
+            android:fontFamily="@font/binggrae2_bold"
+            android:textSize="25sp"
+
+
+
+            />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/piechart"
+            android:layout_marginBottom="20dp">
+
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+
+<!--
+           <ListView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/listviewmsg"
+               android:fontFamily="@font/binggrae2_bold"
+               android:textSize="18sp"/>
+-->
+    </LinearLayout>
+</ScrollView>

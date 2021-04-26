@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/camera1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="정보가 없습니다"
+                        android:fontFamily="@font/binggrae2_bold"
+                        android:textSize="25sp" />
+
+                    <ImageButton
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="170dp"
+                        android:id="@+id/reset_btn"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/ic_refresh"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="380dp"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/ic_no_photo"/>
+
+
+            </LinearLayout>
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="horizontal"
+                android:id="@+id/camera1"
+                android:background="@drawable/border2">
+                <LinearLayout
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_marginTop="8dp"
+                            android:id="@+id/text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="정보가 없습니다"
+                            android:fontFamily="@font/binggrae2_bold"
+                            android:textSize="25sp"
+                            />
+
+                        <ImageButton
+                            android:layout_marginTop="8dp"
+                            android:layout_marginLeft="170dp"
+                            android:id="@+id/reset_btn"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/ic_refresh"
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="190dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/ic_no_photo"
+                        android:id="@+id/img1"/>
+                </LinearLayout>-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/border2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/server">
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="13dp"
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정보가 없습니다"
+                android:fontFamily="@font/binggrae2_bold"
+                android:textSize="25sp"
+                />
+
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/ic_person"
+                    android:id="@+id/img2"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:id="@+id/TextTime"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="투신 시각 : "
+                        android:fontFamily="@font/binggrae2_bold"
+                        android:padding="10dp"
+                        android:textSize="20sp"
+                        android:layout_gravity="center_vertical"
+                        />
+
+                    <TextView
+                        android:id="@+id/TextPerson"
+                        android:padding="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="투신자 예측 : "
+                        android:fontFamily="@font/binggrae2_bold"
+                        android:textSize="20sp"
+                        android:layout_gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextInformation"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="투신자 특징 : "
+                android:fontFamily="@font/binggrae2_bold"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/camera2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="정보가 없습니다"
+                        android:fontFamily="@font/binggrae2_bold"
+                        android:textSize="25sp" />
+                    <ImageButton
+                        android:id="@+id/map_btn"
+                        android:layout_width="90dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="120dp"
+                        android:background="@drawable/mapbutton" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="380dp"
+                    android:layout_height="230dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/ic_no_photo"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/GPS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="GPS : "
+                        android:fontFamily="@font/binggrae2_bold"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

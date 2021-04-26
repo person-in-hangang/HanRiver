@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DB0000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="119 Notice"
+            android:textSize="50sp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/binggrae2_bold"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="560dp">
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#DB0000">
+
+        <Button
+            android:id="@+id/realtime"
+            android:layout_width="1dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_alarm"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/report"
+            android:layout_width="1dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_report"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/setting"
+            android:layout_width="1dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_settings"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/border"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="#B2CCFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="실시간 정보확인"
+                android:textSize="50sp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fallen_signal_txt"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="떨어짐 신호 2"
+
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/height_txt"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="키정보"
+
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/location_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "내위치가져오기"
+                />
+            <Button
+                android:id = "@+id/map_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="지도"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
