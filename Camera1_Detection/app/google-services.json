@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "98890845127",
+    "firebase_url": "https://jinah-e68da.firebaseio.com",
+    "project_id": "jinah-e68da",
+    "storage_bucket": "jinah-e68da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98890845127:android:e697b4aac24280fde2e7e2",
+        "android_client_info": {
+          "package_name": "org.med.darknetandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98890845127-fv0dsjlf7mr43td2u7josigmn2t510a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ud5I80vdh4Y1AfkX940HU5zSz1IqN3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98890845127-fv0dsjlf7mr43td2u7josigmn2t510a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
